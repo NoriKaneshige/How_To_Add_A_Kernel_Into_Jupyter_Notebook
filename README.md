@@ -11,3 +11,4 @@
 (projectname)$ ipython kernel install --user --name=projectname
 ```
 ## 4) open a jupyter notebook and choose your kernel
+Jupyter Notebook > Kernel > Change kernel > choose your kernel
