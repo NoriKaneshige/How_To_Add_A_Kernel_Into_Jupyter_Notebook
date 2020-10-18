@@ -66,3 +66,4 @@ Installed kernelspec deepchem_venv in /Users/Koitaro/Library/Jupyter/kernels/dee
 
 ```
 [volumes_and_bind_mounts](https://github.com/NoriKaneshige/How_To_Add_A_Kernel_Into_Jupyter_Notebook/blob/master/kernel_was_connected.png)
+# Now you can open a jupyter notebook in any folder and use a kernel with which I can use all installed modules in the virtual environment that the kernel was created upon.
