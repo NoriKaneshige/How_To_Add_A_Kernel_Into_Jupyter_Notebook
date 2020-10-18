@@ -26,3 +26,42 @@ Jupyter Notebook > Kernel > Change kernel > choose your kernel
 
 
 [Useful_Link_3](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
+
+
+```
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % pip uninstall ipykernel
+WARNING: Skipping ipykernel as it is not installed.
+
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % pip install ipykernel
+Collecting ipykernel
+
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % jupyter kernelspec list
+Available kernels:
+  deepchem_venv    /Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
+  python3          /Users/Koitaro/opt/anaconda3/envs/biophysics_435/share/jupyter/kernels/python3
+
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % jupyter kernelspec remove deepchem_venv
+Kernel specs to remove:
+  deepchem_venv       	/Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
+Remove 1 kernel specs [y/N]: y
+[RemoveKernelSpec] Removed /Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % jupyter kernelspec remove python3     
+Kernel specs to remove:
+  python3             	/Users/Koitaro/opt/anaconda3/envs/biophysics_435/share/jupyter/kernels/python3
+Remove 1 kernel specs [y/N]: y
+[RemoveKernelSpec] Removed /Users/Koitaro/opt/anaconda3/envs/biophysics_435/share/jupyter/kernels/python3
+
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % conda install ipykernel
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.3
+  latest version: 4.8.5
+Please update conda by running
+    $ conda update -n base -c defaults conda
+# All requested packages already installed.
+
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % ipython kernel install --user --name=deepchem_venv
+Installed kernelspec deepchem_venv in /Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
+
+```
