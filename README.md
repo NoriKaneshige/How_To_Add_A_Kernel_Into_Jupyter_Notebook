@@ -65,3 +65,4 @@ Please update conda by running
 Installed kernelspec deepchem_venv in /Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
 
 ```
+![volumes_and_bind_mounts](https://github.com/NoriKaneshige/How_To_Add_A_Kernel_Into_Jupyter_Notebook/blob/master/kernel_was_connected.png)
