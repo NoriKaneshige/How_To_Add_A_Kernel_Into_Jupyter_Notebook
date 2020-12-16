@@ -67,3 +67,18 @@ Installed kernelspec deepchem_venv in /Users/Koitaro/Library/Jupyter/kernels/dee
 ```
 [volumes_and_bind_mounts](https://github.com/NoriKaneshige/How_To_Add_A_Kernel_Into_Jupyter_Notebook/blob/master/kernel_was_connected.png)
 # Now you can open a jupyter notebook in any folder and use a kernel with which you can use all installed modules in the virtual environment that the kernel was created upon.
+
+## 6 How to activate and deactivate a virtual environment
+```
+(base) Koitaro@MacBook-Pro-3 envs % pwd              
+/Users/Koitaro/opt/anaconda3/envs
+(base) Koitaro@MacBook-Pro-3 envs % ls
+biophysics_435	mypymol
+(base) Koitaro@MacBook-Pro-3 envs % conda activate biophysics_435 
+(biophysics_435) Koitaro@MacBook-Pro-3 envs % conda deactivate biophysics_435 
+deactivate does not accept arguments
+remainder_args: ['biophysics_435']
+
+(biophysics_435) Koitaro@MacBook-Pro-3 envs % conda deactivate
+(base) Koitaro@MacBook-Pro-3 envs % 
+```
