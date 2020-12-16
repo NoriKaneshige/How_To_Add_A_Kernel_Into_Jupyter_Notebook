@@ -82,3 +82,10 @@ remainder_args: ['biophysics_435']
 (biophysics_435) Koitaro@MacBook-Pro-3 envs % conda deactivate
 (base) Koitaro@MacBook-Pro-3 envs % 
 ```
+## 7) How to check kernels that are in a virtual environment
+```
+(biophysics_435) Koitaro@MacBook-Pro-3 envs % jupyter kernelspec list
+Available kernels:
+  python3          /Users/Koitaro/opt/anaconda3/envs/biophysics_435/lib/python3.7/site-packages/ipykernel/resources
+  deepchem_venv    /Users/Koitaro/Library/Jupyter/kernels/deepchem_venv
+```
